@@ -3,7 +3,7 @@ import globals from 'globals';
 import eslintReact from 'eslint-plugin-react';
 import eslintReactHooks from 'eslint-plugin-react-hooks';
 import eslintReactRefresh from 'eslint-plugin-react-refresh';
-import stylistic from '@stylistic/eslint-plugin-js';
+
 
 /** @type {import('eslint').Linter.Config[]} */
 export default [
@@ -24,8 +24,7 @@ export default [
     plugins: {
       react: eslintReact,
       'react-hooks': eslintReactHooks,
-      'react-refresh': eslintReactRefresh,
-      '@stylistic': stylistic
+      'react-refresh': eslintReactRefresh
     },
     rules: {
       ...js.configs.recommended.rules,
