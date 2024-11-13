@@ -1,0 +1,41 @@
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+
+  &-base {
+    padding: 10px 20px;
+    background: green;
+    border: none;
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    cursor: pointer;
+    font-weight: 700;
+  }
+
+  &--primary {
+    background: green;
+
+    &:hover {
+      background: darkgreen;
+    }
+  }
+
+  &--secondary {
+    background: orange;
+    color: #313131;
+
+    &:hover {
+      background: darkorange;
+    }
+  }
+
+  &--ucase {
+    text-transform: uppercase;
+  }
+}

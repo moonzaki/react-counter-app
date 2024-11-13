@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+@for $i from 1 through 8 {
+  h#{$i} {
+    font-family: 'Arial', sans-serif;
+    color: #313131de;
+  }
+}
+
+p {
+  font-family: 'Arial', sans-serif;
+  color: #313131;
+}
